@@ -3,45 +3,63 @@ Bus Booking System
 A comprehensive desktop application for bus ticket booking and management system built with Python and MySQL. This system provides separate interfaces for administrators and users with complete CRUD functionality for bus schedules and ticket management.
 
 🚀 Features
-
 👨‍💼 Admin Features
 Secure Authentication - Login with admin credentials
+
 Schedule Management
+
 Add new bus schedules
+
 Update existing schedules (departure, destination, fare, dates)
+
 View all booked tickets per bus
+
 Real-time Monitoring - Track vacant seats and bookings
 
 👤 User Features
 Ticket Booking
+
 Search available buses by route
+
 Complete booking with payment simulation
+
 Automatic fare calculation with discounts for minors
+
 Ticket Management
+
 Search tickets by ticket number
+
 Update personal information
+
 Cancel bookings with automatic seat availability update
+
 Digital Tickets - Download tickets as text files
 
 🛠️ Technology Stack
 Frontend: Python Tkinter (GUI)
+
 Backend: Python 3.x
+
 Database: MySQL
+
 Data Storage: Pickle files for backup
+
 Additional Libraries: mysql-connector-python
 
 📋 Prerequisites
 Before running this application, ensure you have:
+
 Python 3.6 or higher
+
 MySQL Server
 
 Required Python packages:
 
 bash
 pip install mysql-connector-python
-
 🗄️ Database Setup
 Create MySQL database named ms
+
 Execute the following SQL commands:
 
 sql
