@@ -20,6 +20,7 @@ View all booked tickets per bus
 Real-time Monitoring - Track vacant seats and bookings
 
 
+
 👤 User Features
 
 Ticket Booking
@@ -39,6 +40,7 @@ Update personal information
 Cancel bookings with automatic seat availability update
 
 Digital Tickets - Download tickets as text files
+
 
 
 🛠️ Technology Stack
@@ -66,6 +68,7 @@ Required Python packages:
 
 bash
 pip install mysql-connector-python
+
 
 🗄️ Database Setup
 
@@ -117,9 +120,11 @@ Insert sample data (optional):
 INSERT INTO admin (username, password) VALUES 
 ('admin', 'admin123'),
 ('superuser', 'password123');
-🚀 Installation & Setup
-Clone the repository
 
+
+🚀 Installation & Setup
+
+Clone the repository
 
 Update MySQL credentials in the code:
 
@@ -135,6 +140,7 @@ Run the Application
 
 bash
 python bus_booking_system.py
+
 
 💡 Usage Guide
 
@@ -185,10 +191,15 @@ Data Integrity: Maintains consistency across all storage systems
 
 bus-booking-system/
 ├── bus_booking_system.py    # Main application file
+
 ├── bg.png                   # Background image
+
 ├── schedules.dat            # Schedule data backup
+
 ├── ticket1.dat              # Ticket data backup
+
 ├── README.md               # Project documentation
+
 └── database_setup.sql      # Database schema
 
 
@@ -248,19 +259,6 @@ Ensure all required Python packages are installed
 Confirm MySQL server is running
 
 
-🤝 Contributing
-
-Fork the project
-
-Create your feature branch (git checkout -b feature/AmazingFeature)
-
-Commit your changes (git commit -m 'Add some AmazingFeature')
-
-Push to the branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-
 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -273,6 +271,7 @@ Built with Python Tkinter for GUI
 MySQL for robust data management
 
 Pickle for data persistence
+
 
 
 Note: This is a desktop application designed for educational purposes. For production use, consider adding enhanced security features and error handling.
